@@ -1,0 +1,107 @@
+2025-07-16 01:55:55.046 [info] Name: Pylint
+2025-07-16 01:55:55.046 [info] Module: pylint
+2025-07-16 01:55:55.046 [info] Python extension loading
+2025-07-16 01:55:55.046 [info] Waiting for interpreter from Python extension.
+2025-07-16 01:55:55.046 [info] No interpreter found from setting pylint.interpreter
+2025-07-16 01:55:55.046 [info] Getting interpreter from ms-python.python extension for workspace /home/frost/VS CODE FILES
+2025-07-16 01:55:55.046 [info] Python extension loaded
+2025-07-16 01:55:55.046 [info] Interpreter from ms-python.python extension for /home/frost/VS CODE FILES: /home/frost/VS CODE FILES/.venv/bin/python
+2025-07-16 01:55:55.046 [info] No interpreter found from setting pylint.interpreter
+2025-07-16 01:55:55.046 [info] Getting interpreter from ms-python.python extension for workspace /home/frost/VS CODE FILES
+2025-07-16 01:55:55.046 [info] Interpreter from ms-python.python extension for /home/frost/VS CODE FILES: /home/frost/VS CODE FILES/.venv/bin/python
+2025-07-16 01:55:55.046 [info] Server run command: /home/frost/VS CODE FILES/.venv/bin/python /home/frost/.vscode/extensions/ms-python.pylint-2025.2.0/bundled/tool/lsp_server.py
+2025-07-16 01:55:55.046 [info] Server: Start requested.
+2025-07-16 01:55:55.545 [info] CWD Server: /home/frost/VS CODE FILES
+2025-07-16 01:55:55.545 [info] Settings used to run Server:
+[
+    {
+        "enabled": true,
+        "cwd": "/home/frost/VS CODE FILES",
+        "workspace": "file:///home/frost/VS%20CODE%20FILES",
+        "args": [],
+        "severity": {
+            "convention": "Information",
+            "error": "Error",
+            "fatal": "Error",
+            "refactor": "Hint",
+            "warning": "Warning",
+            "info": "Information"
+        },
+        "path": [],
+        "ignorePatterns": [],
+        "interpreter": [
+            "/home/frost/VS CODE FILES/.venv/bin/python"
+        ],
+        "importStrategy": "useBundled",
+        "showNotifications": "off",
+        "extraPaths": []
+    }
+]
+
+2025-07-16 01:55:55.545 [info] Global settings:
+{
+    "cwd": "${workspaceFolder}",
+    "enabled": true,
+    "workspace": "/home/frost",
+    "args": [],
+    "severity": {
+        "convention": "Information",
+        "error": "Error",
+        "fatal": "Error",
+        "refactor": "Hint",
+        "warning": "Warning",
+        "info": "Information"
+    },
+    "path": [],
+    "ignorePatterns": [],
+    "interpreter": [],
+    "importStrategy": "useBundled",
+    "showNotifications": "off",
+    "extraPaths": []
+}
+
+2025-07-16 01:55:55.545 [info] sys.path used to run Server:
+   /home/frost/VS CODE FILES
+   /home/frost/.vscode/extensions/ms-python.pylint-2025.2.0/bundled/libs
+   /home/frost/.vscode/extensions/ms-python.pylint-2025.2.0/bundled/tool
+   /usr/lib64/python313.zip
+   /usr/lib64/python3.13
+   /usr/lib64/python3.13/lib-dynload
+   /home/frost/VS CODE FILES/.venv/lib64/python3.13/site-packages
+   /home/frost/VS CODE FILES/.venv/lib/python3.13/site-packages
+2025-07-16 01:55:55.547 [info] /home/frost/VS CODE FILES/.venv/bin/python -m pylint --version
+2025-07-16 01:55:55.547 [info] CWD Linter: /home/frost/VS CODE FILES
+2025-07-16 01:55:55.670 [info] 
+pylint 3.3.4
+astroid 3.3.8
+Python 3.13.5 (main, Jun 11 2025, 22:06:31) [GCC]
+
+
+2025-07-16 01:55:55.671 [info] Version info for linter running for /home/frost/VS CODE FILES:
+pylint 3.3.4
+astroid 3.3.8
+Python 3.13.5 (main, Jun 11 2025, 22:06:31) [GCC]
+
+2025-07-16 01:55:55.671 [info] SUPPORTED pylint>=2.12.2
+FOUND pylint==3.3.4
+
+2025-07-16 01:55:55.709 [info] [Trace - 1:55:55 AM] Received notification 'window/logMessage'.
+2025-07-16 01:55:55.709 [info] /home/frost/VS CODE FILES/.venv/bin/python -m pylint --reports=n --output-format=json --clear-cache-post-run=y --from-stdin /home/frost/VS CODE FILES/Untitled-1
+2025-07-16 01:55:55.730 [info] CWD Linter: /home/frost/VS CODE FILES
+2025-07-16 01:55:56.171 [info] untitled:Untitled-1 :
+[
+    {
+        "type": "convention",
+        "module": "Untitled-1",
+        "obj": "",
+        "line": 1,
+        "column": 0,
+        "endLine": null,
+        "endColumn": null,
+        "path": "Untitled-1",
+        "symbol": "invalid-name",
+        "message": "Module name \"Untitled-1\" doesn't conform to snake_case naming style",
+        "message-id": "C0103"
+    }
+]
+

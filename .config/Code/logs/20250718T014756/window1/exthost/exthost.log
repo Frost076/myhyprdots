@@ -1,0 +1,23 @@
+2025-07-18 01:47:57.508 [info] Extension host with pid 9875 started
+2025-07-18 01:47:57.508 [info] Skipping acquiring lock for /home/frost/.config/Code/User/workspaceStorage/d016b5ee66f9933f98658a5ecc8c2b77.
+2025-07-18 01:47:57.529 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-07-18 01:47:57.551 [info] ExtensionService#_doActivateExtension mechatroner.rainbow-csv, startup: false, activationEvent: 'onLanguage:plaintext'
+2025-07-18 01:47:57.555 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-07-18 01:47:57.569 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python', root cause: ms-python.black-formatter
+2025-07-18 01:47:57.799 [info] ExtensionService#_doActivateExtension ms-python.black-formatter, startup: false, activationEvent: 'onLanguage:python'
+2025-07-18 01:47:57.826 [info] ExtensionService#_doActivateExtension ms-python.debugpy, startup: false, activationEvent: 'onLanguage:python'
+2025-07-18 01:47:57.862 [info] ExtensionService#_doActivateExtension ms-python.pylint, startup: false, activationEvent: 'onLanguage:python'
+2025-07-18 01:47:57.887 [info] ExtensionService#_doActivateExtension ms-python.vscode-pylance, startup: false, activationEvent: 'onLanguage:python'
+2025-07-18 01:47:58.511 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-07-18 01:47:58.518 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-07-18 01:47:58.564 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-07-18 01:47:58.614 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-07-18 01:47:58.631 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-07-18 01:47:58.665 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-07-18 01:47:58.747 [info] Eager extensions activated
+2025-07-18 01:47:58.749 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-07-18 01:47:58.758 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-07-18 01:47:58.774 [info] ExtensionService#_doActivateExtension ms-vscode-remote.remote-wsl, startup: false, activationEvent: 'onStartupFinished'
+2025-07-18 01:47:58.856 [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+2025-07-18 01:47:59.650 [info] Extension host terminating: renderer closed the MessagePort
+2025-07-18 01:47:59.663 [info] Extension host with pid 9875 exiting with code 0

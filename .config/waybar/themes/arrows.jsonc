@@ -1,0 +1,142 @@
+{
+	"layer": "top",
+	"position": "top",
+    "reload_style_on_change": true,
+	"modules-left": [
+		"hyprland/workspaces",
+		"custom/arrow10",
+		"hyprland/window"
+	],
+
+	"modules-right": [
+		"custom/arrow6",
+		"wireplumber",
+		"custom/arrow5",
+		"network",
+		"custom/arrow4",
+		"temperature",
+		"custom/arrow3",
+		"battery",
+		"custom/arrow2",
+		"tray",
+		"clock#date",
+		"custom/arrow1",
+		"clock#time"
+	],
+
+	// Modules
+	"clock#time": {
+        "format": "󱑍 {:%I:%M %p}",
+        "align": 1,
+        "justify": "right",
+        "tooltip-format": "{:%I:%M %p ~  %a. %d.%m }",
+        "timezones": [
+            "Asia/Kolkata",
+            "America/Los_Angeles",
+        ],
+        "actions":  {
+            "on-click": "tz_up",
+        }
+    },
+    
+	"clock#date": {
+		"format": " {:%d.%m}",
+        "tooltip-format": "{:%I:%M %p ~  %a. %d.%m }",
+        "timezones": [
+            "Asia/Kolkata",
+            "America/Los_Angeles",
+        ],
+        "actions":  {
+            "on-click": "tz_up",
+        }
+	},
+
+	"tray": {
+		"icon-size": 18,
+		"spacing": 10
+	},
+	
+    "battery": {
+        "bat": "BAT0",
+        "interval": 60,
+        "format": "{icon} {capacity}%",
+        "format-icons": ["󰂎", "󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰁹"],
+        "tooltip-format": "{capacity}%",
+    },
+
+	"temperature": {
+		"critical-threshold": 90,
+		"interval": 5,
+		"format": "{icon} {temperatureC}°",
+		"format-icons": [ "","","","",""],
+	},
+	
+    "network": {
+        "format": "",
+        "on-click": "alacritty -e nmtui",
+        "format-ethernet": "",
+        "format-wifi": "{icon} {signalStrength}%",
+        "format-disconnected": "󰞃 no signal",
+        "format-icons": ["󰢿", "󰢼", "󰢽", "󰢾"],
+        "tooltip-format-wifi": "{essid} ({signalStrength}%)",
+        "tooltip-format-ethernet": "{ifname}",
+        "tooltip-format-disconnected": "Disconnected",
+    },
+
+    "wireplumber": {
+        "format": "{icon} {volume}%",
+		"format-muted": "󰝟",
+		"format-icons": ["󰖀", "󰕾"],        
+        "on-click": "pavucontrol",        
+        "max-volume": 150,
+        "scroll-step": 2,
+        "tooltip-format": "{icon}  {volume}%",
+    },
+    
+	"hyprland/window": {
+		"format": "{title}",
+		"max-length": 30,
+		"tooltip": false
+	},
+
+    "hyprland/workspaces": {
+        "format": "{icon}",
+        "on-click": "activate",
+        "sort-by-number": false,
+    },
+
+	"custom/arrow1": {
+		"format": "",
+		"tooltip": false
+	},
+
+	"custom/arrow2": {
+		"format": "",
+		"tooltip": false
+	},
+
+	"custom/arrow3": {
+		"format": "",
+		"tooltip": false
+	},
+
+	"custom/arrow4": {
+		"format": "",
+		"tooltip": false
+	},
+
+	"custom/arrow5": {
+		"format": "",
+		"tooltip": false
+	},
+
+	"custom/arrow6": {
+		"format": "",
+		"tooltip": false
+	},
+
+	"custom/arrow10": {
+		"format": "",
+		"tooltip": false
+	}
+}

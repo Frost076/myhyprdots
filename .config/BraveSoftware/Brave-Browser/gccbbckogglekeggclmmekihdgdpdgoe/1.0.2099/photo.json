@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "campaigns": [
+    {
+      "campaignId": "f85fb958-78af-46bc-b427-7684e35fd34d",
+      "logo": {
+        "imageUrl": "09020691-985b-4a6c-a204-f5c14fb17e6d/aad014b7-7c1e-4455-bd52-16f6f9978345.png",
+        "destinationUrl": "https://karate.com/app",
+        "alt": "Karate Combat - Download the app to play now!",
+        "companyName": "Karate Combat"
+      },
+      "wallpapers": [
+        {
+          "imageUrl": "09020691-985b-4a6c-a204-f5c14fb17e6d/af7762c8-483a-49db-8ff2-4e92ddb9e17a.jpg",
+          "creativeInstanceId": "071911ce-1334-4169-9d5f-04b1f4b6e6e8",
+          "focalPoint": {
+            "x": 1600,
+            "y": 720
+          }
+        },
+        {
+          "imageUrl": "a84593b8-ffe0-42c4-a3f3-400c08731b7a/12d63e90-7936-40d7-bb8e-d4045ab81380.jpg",
+          "creativeInstanceId": "cd9a015d-8f6f-4a0c-8a47-7f1df138dc00",
+          "focalPoint": {
+            "x": 1280,
+            "y": 720
+          },
+          "logo": {
+            "imageUrl": "a84593b8-ffe0-42c4-a3f3-400c08731b7a/3716eee3-83f7-4c40-aa41-049c8148f837.png",
+            "destinationUrl": "https://karate.com/app",
+            "alt": "Karate Combat - Token holders run the league with the karate combat app - Watch Live",
+            "companyName": "Karate Combat"
+          }
+        },
+        {
+          "imageUrl": "d72c6818-cfa9-4ea5-a4c4-da3214853d50/ec212e13-78d0-41ce-b3f7-2edd0b7316e8.jpg",
+          "creativeInstanceId": "32168e1c-4508-4439-a95d-0f56c5d4700c",
+          "focalPoint": {
+            "x": 1280,
+            "y": 720
+          },
+          "logo": {
+            "imageUrl": "d72c6818-cfa9-4ea5-a4c4-da3214853d50/c5af8b71-386f-4411-bd8b-8c252fb5c652.png",
+            "destinationUrl": "https://karate.com/app",
+            "alt": "Karate Combat - Download the app to play now!",
+            "companyName": "Karate Combat"
+          }
+        }
+      ]
+    }
+  ],
+  "campaigns2": [
+    {
+      "campaignId": "f85fb958-78af-46bc-b427-7684e35fd34d",
+      "logo": {
+        "imageUrl": "09020691-985b-4a6c-a204-f5c14fb17e6d/aad014b7-7c1e-4455-bd52-16f6f9978345.png",
+        "destinationUrl": "https://karate.com/app",
+        "alt": "Karate Combat - Download the app to play now!",
+        "companyName": "Karate Combat"
+      },
+      "wallpapers": [
+        {
+          "imageUrl": "09020691-985b-4a6c-a204-f5c14fb17e6d/af7762c8-483a-49db-8ff2-4e92ddb9e17a.jpg",
+          "creativeInstanceId": "071911ce-1334-4169-9d5f-04b1f4b6e6e8",
+          "focalPoint": {
+            "x": 1600,
+            "y": 720
+          }
+        },
+        {
+          "imageUrl": "a84593b8-ffe0-42c4-a3f3-400c08731b7a/12d63e90-7936-40d7-bb8e-d4045ab81380.jpg",
+          "creativeInstanceId": "cd9a015d-8f6f-4a0c-8a47-7f1df138dc00",
+          "focalPoint": {
+            "x": 1280,
+            "y": 720
+          },
+          "logo": {
+            "imageUrl": "a84593b8-ffe0-42c4-a3f3-400c08731b7a/3716eee3-83f7-4c40-aa41-049c8148f837.png",
+            "destinationUrl": "https://karate.com/app",
+            "alt": "Karate Combat - Token holders run the league with the karate combat app - Watch Live",
+            "companyName": "Karate Combat"
+          }
+        },
+        {
+          "imageUrl": "d72c6818-cfa9-4ea5-a4c4-da3214853d50/ec212e13-78d0-41ce-b3f7-2edd0b7316e8.jpg",
+          "creativeInstanceId": "32168e1c-4508-4439-a95d-0f56c5d4700c",
+          "focalPoint": {
+            "x": 1280,
+            "y": 720
+          },
+          "logo": {
+            "imageUrl": "d72c6818-cfa9-4ea5-a4c4-da3214853d50/c5af8b71-386f-4411-bd8b-8c252fb5c652.png",
+            "destinationUrl": "https://karate.com/app",
+            "alt": "Karate Combat - Download the app to play now!",
+            "companyName": "Karate Combat"
+          }
+        }
+      ]
+    }
+  ]
+}

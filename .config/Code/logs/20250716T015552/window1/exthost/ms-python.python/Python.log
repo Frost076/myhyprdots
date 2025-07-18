@@ -1,0 +1,7 @@
+2025-07-16 01:55:54.087 [info] Telemetry level is off
+2025-07-16 01:55:54.087 [info] Experiments are disabled, only manually opted experiments are active.
+2025-07-16 01:55:54.087 [warning] Dir "/home/frost/VS CODE FILES/.pixi/envs" is not watchable (directory does not exist)
+2025-07-16 01:55:54.087 [info] Python interpreter path: ./.venv/bin/python
+2025-07-16 01:55:54.107 [info] > pyenv which python
+2025-07-16 01:55:54.107 [info] cwd: ~/VS CODE FILES
+2025-07-16 01:55:56.818 [info] Starting Pylance language server.

@@ -1,0 +1,21 @@
+2025/07/16-23:13:59.234 934 Reusing MANIFEST /home/frost/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/07/16-23:13:59.235 934 Recovering log #60
+2025/07/16-23:13:59.237 934 Reusing old log /home/frost/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/000060.log 
+2025/07/16-23:14:00.650 932 Compacting 1@1 + 1@2 files
+2025/07/16-23:14:00.655 932 Generated table #63@1: 106 keys, 21337 bytes
+2025/07/16-23:14:00.655 932 Compacted 1@1 + 1@2 files => 21337 bytes
+2025/07/16-23:14:00.660 932 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/07/16-23:14:00.660 932 Delete type=2 #59
+2025/07/16-23:14:00.661 932 Delete type=2 #61
+2025/07/16-23:14:13.329 933 Level-0 table #65: started
+2025/07/16-23:14:13.370 933 Level-0 table #65: 3201202 bytes OK
+2025/07/16-23:14:13.377 933 Delete type=0 #60
+2025/07/16-23:18:21.735 933 Compacting 1@1 + 1@2 files
+2025/07/16-23:18:21.771 933 Generated table #66@1: 255 keys, 889971 bytes
+2025/07/16-23:18:21.771 933 Compacted 1@1 + 1@2 files => 889971 bytes
+2025/07/16-23:18:21.776 933 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/07/16-23:18:21.777 933 Delete type=2 #63
+2025/07/16-23:18:21.777 933 Delete type=2 #65
+2025/07/16-23:18:22.012 933 Level-0 table #68: started
+2025/07/16-23:18:22.053 933 Level-0 table #68: 3196872 bytes OK
+2025/07/16-23:18:22.060 933 Delete type=0 #64

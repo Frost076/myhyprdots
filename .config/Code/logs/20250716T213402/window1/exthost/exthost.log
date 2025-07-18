@@ -1,0 +1,18 @@
+2025-07-16 21:34:04.162 [info] Extension host with pid 2841 started
+2025-07-16 21:34:04.162 [info] Skipping acquiring lock for /home/frost/.config/Code/User/workspaceStorage/d016b5ee66f9933f98658a5ecc8c2b77.
+2025-07-16 21:34:04.193 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-07-16 21:34:04.217 [info] ExtensionService#_doActivateExtension mechatroner.rainbow-csv, startup: false, activationEvent: 'onLanguage:plaintext'
+2025-07-16 21:34:04.221 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-07-16 21:34:04.235 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python', root cause: ms-python.black-formatter
+2025-07-16 21:34:04.500 [info] ExtensionService#_doActivateExtension ms-python.black-formatter, startup: false, activationEvent: 'onLanguage:python'
+2025-07-16 21:34:04.530 [info] ExtensionService#_doActivateExtension ms-python.debugpy, startup: false, activationEvent: 'onLanguage:python'
+2025-07-16 21:34:04.566 [info] ExtensionService#_doActivateExtension ms-python.pylint, startup: false, activationEvent: 'onLanguage:python'
+2025-07-16 21:34:04.590 [info] ExtensionService#_doActivateExtension ms-python.vscode-pylance, startup: false, activationEvent: 'onLanguage:python'
+2025-07-16 21:34:05.176 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-07-16 21:34:05.180 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-07-16 21:34:05.214 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-07-16 21:34:05.287 [info] Eager extensions activated
+2025-07-16 21:34:05.288 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-07-16 21:34:05.290 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-07-16 21:34:05.305 [info] ExtensionService#_doActivateExtension ms-vscode-remote.remote-wsl, startup: false, activationEvent: 'onStartupFinished'
+2025-07-16 21:34:05.393 [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'

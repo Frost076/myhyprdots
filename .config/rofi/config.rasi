@@ -1,0 +1,73 @@
+configuration {
+  display-drun: "Applications: ";
+  display-window: "Windows:";
+  drun-display-format: "{name}";
+  font: "JetBrainsMono Nerd Font Medium 11";
+  modi: "window,run,drun";
+  
+  // enabling the icons
+  show-icons: true;
+  icon-theme: "Papirus";
+}
+
+@import "~/.config/rofi/colors.rasi"
+
+window {
+  width: 30%;
+  border: 3;
+  border-radius: 0;
+  padding: 12;
+}
+
+element {
+  border-radius: 10;
+  padding: 8 6 8 12;
+}
+
+element-text {
+  vertical-align: 0.5;
+  padding:2;
+  margin:0;
+  element-text: inherit;
+}
+
+element selected {
+  text-color: inherit;
+  background-color: inherit;
+}
+
+element-icon {
+  size: 14;
+  margin: 0 10 0 0;
+}
+
+entry {
+  padding: 4;
+}
+
+inputbar {
+  border-radius: 10;
+  margin: 8 0 4 0;
+  children: [prompt, entry];
+}
+
+listview {
+  columns: 1;
+  lines: 7;
+  padding: 8 0 0 0;
+  border: 0;
+  scrollbar: false;
+  children: [element];
+}
+
+mainbox {
+  children: [inputbar, listview];
+}
+
+prompt {
+  enabled: true;
+  padding: 2 0 0 12;
+  margin: 2;
+}
+
+/* vim: ft=sass

@@ -1,0 +1,5 @@
+2025/07/15-02:00:31.935 bd85 Creating DB /home/frost/.config/BraveSoftware/Brave-Browser/Profile 1/IndexedDB/https_iimicloud.sharepoint.com_0.indexeddb.leveldb since it was missing.
+2025/07/15-02:00:31.942 bd85 Reusing MANIFEST /home/frost/.config/BraveSoftware/Brave-Browser/Profile 1/IndexedDB/https_iimicloud.sharepoint.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/07/15-02:00:52.957 bd85 Level-0 table #5: started
+2025/07/15-02:00:52.973 bd85 Level-0 table #5: 2441582 bytes OK
+2025/07/15-02:00:52.979 bd85 Delete type=0 #3

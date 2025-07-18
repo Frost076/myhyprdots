@@ -1,0 +1,151 @@
+/* Colors (gruvbox-material) */
+@define-color black	#252423;
+@define-color red	#ea6962;
+@define-color green	#a9b665;
+@define-color yellow	#d8a657;
+@define-color blue	#7daea3;
+@define-color purple	#d3869b;
+@define-color aqua	#89b482;
+@define-color gray	#7c6f64;
+@define-color brgray	#bdae93;
+@define-color brred	#ea6962;
+@define-color brgreen	#a9b665;
+@define-color bryellow	#d8a657;
+@define-color brblue	#7daea3;
+@define-color brpurple	#bd6f3e;
+@define-color braqua	#89b482;
+@define-color white	#ebdbb2;
+@define-color bg2	#5a524c;
+
+@define-color unfocused	@bg2;
+@define-color focused	@braqua;
+@define-color inactive	@purple;
+@define-color sound	@brpurple;
+@define-color network	@purple;
+@define-color temp	@brgreen;
+@define-color battery	@aqua;
+@define-color date	@black;
+@define-color time	@yellow;
+
+/* Reset all styles */
+* {
+	border: none;
+	border-radius: 0;
+	min-height: 0;
+	margin: 0;
+	padding: 0;
+	box-shadow: none;
+	text-shadow: none;
+	icon-shadow: none;
+}
+
+/* The whole bar */
+#waybar {
+	background: rgba(40, 40, 40, 0.8784313725); /* #282828e0 */
+	color: @black;
+	font-family: Maple Mono NF;
+	font-size: 14pt;
+	font-weight: bold;
+}
+
+/* Each module */
+#battery,
+#clock,
+#network,
+#wireplumber,
+#temperature,
+#tray {
+	padding-left: 8pt;
+	padding-right: 8pt;
+}
+
+/* Workspaces stuff */
+#workspaces button {
+	/*font-weight: bold;*/
+	padding-left: 2pt;
+	padding-right: 2pt;
+	color: @brgray;
+	background: @unfocused;
+}
+
+#workspaces button.empty {
+    color: @black;
+}
+
+#window {
+	margin-right: 25pt;
+	margin-left: 25pt;
+	color: @brgray;
+}
+
+#wireplumber {
+	background: @sound;
+}
+
+#network {
+	background: @network;
+}
+
+#temperature {
+	background: @temp;
+}
+
+#battery {
+	background: @battery;
+}
+
+#tray {
+	background: @date;
+}
+
+#clock.date {
+	background: @date;
+	color: @white;
+}
+
+#clock.time {
+	background: @time;
+	color: @black;
+}
+
+#custom-arrow1 {
+	font-size: 15pt;
+	color: @time;
+	background: @date;
+}
+
+#custom-arrow2 {
+	font-size: 15pt;
+	color: @date;
+	background: @battery;
+}
+
+#custom-arrow3 {
+	font-size: 15pt;
+	color: @battery;
+	background: @temp;
+}
+
+#custom-arrow4 {
+	font-size: 15pt;
+	color: @temp;
+	background: @network;
+}
+
+#custom-arrow5 {
+	font-size: 15pt;
+	color: @network;
+	background: @sound;
+}
+
+#custom-arrow6 {
+	font-size: 15pt;
+	color: @sound;
+	background: transparent;
+}
+
+#custom-arrow10 {
+	font-size: 15pt;
+	color: @unfocused;
+	background: transparent;
+}

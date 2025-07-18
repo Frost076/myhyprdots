@@ -1,0 +1,3 @@
+2025/07/14-12:25:59.489 244d Creating DB /home/frost/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_monkeytype.com_0.indexeddb.leveldb since it was missing.
+2025/07/14-12:25:59.496 244d Reusing MANIFEST /home/frost/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_monkeytype.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/07/14-12:25:59.515 245a Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)

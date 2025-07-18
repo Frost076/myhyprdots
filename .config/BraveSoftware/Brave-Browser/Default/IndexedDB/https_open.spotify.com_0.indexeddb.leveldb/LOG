@@ -1,0 +1,32 @@
+2025/07/10-20:36:46.332 79cf Reusing MANIFEST /home/frost/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_open.spotify.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/07/10-20:36:46.332 79cf Recovering log #6
+2025/07/10-20:36:46.335 79cf Reusing old log /home/frost/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_open.spotify.com_0.indexeddb.leveldb/000006.log 
+2025/07/10-20:36:46.336 79cf Delete type=2 #5
+2025/07/10-20:36:46.336 79cf Delete type=2 #7
+2025/07/10-20:36:47.516 79d0 Level-0 table #11: started
+2025/07/10-20:36:47.525 79d0 Level-0 table #11: 1058018 bytes OK
+2025/07/10-20:36:47.530 79d0 Delete type=0 #6
+2025/07/10-20:36:47.665 79d0 Compacting 1@1 + 1@2 files
+2025/07/10-20:36:47.678 79d0 Generated table #12@1: 280 keys, 49898 bytes
+2025/07/10-20:36:47.678 79d0 Compacted 1@1 + 1@2 files => 49898 bytes
+2025/07/10-20:36:47.682 79d0 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/07/10-20:36:47.682 79d0 Delete type=2 #8
+2025/07/10-20:36:47.682 79d0 Delete type=2 #11
+2025/07/10-20:36:49.442 79d0 Level-0 table #14: started
+2025/07/10-20:36:49.450 79d0 Level-0 table #14: 1048250 bytes OK
+2025/07/10-20:36:49.455 79d0 Delete type=0 #10
+2025/07/10-20:36:49.592 79d0 Compacting 1@1 + 1@2 files
+2025/07/10-20:36:49.604 79d0 Generated table #15@1: 312 keys, 52289 bytes
+2025/07/10-20:36:49.604 79d0 Compacted 1@1 + 1@2 files => 52289 bytes
+2025/07/10-20:36:49.609 79d0 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/07/10-20:36:49.609 79d0 Delete type=2 #12
+2025/07/10-20:36:49.609 79d0 Delete type=2 #14
+2025/07/10-20:36:51.335 79d1 Level-0 table #17: started
+2025/07/10-20:36:51.351 79d1 Level-0 table #17: 1060093 bytes OK
+2025/07/10-20:36:51.357 79d1 Delete type=0 #13
+2025/07/10-20:36:52.162 79d0 Compacting 1@1 + 1@2 files
+2025/07/10-20:36:52.174 79d0 Generated table #18@1: 368 keys, 56313 bytes
+2025/07/10-20:36:52.174 79d0 Compacted 1@1 + 1@2 files => 56313 bytes
+2025/07/10-20:36:52.179 79d0 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/07/10-20:36:52.179 79d0 Delete type=2 #15
+2025/07/10-20:36:52.179 79d0 Delete type=2 #17

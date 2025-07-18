@@ -1,0 +1,12 @@
+2025-07-16 00:23:44.267 [info] (Client) Pylance async client (2025.6.2) started with python extension (2025.10.0)
+2025-07-16 00:23:45.170 [info] [Info  - 12:23:45 AM] (3649) Server root directory: file:///home/frost/.vscode/extensions/ms-python.vscode-pylance-2025.6.2/dist
+2025-07-16 00:23:45.171 [info] [Info  - 12:23:45 AM] (3649) Pylance language server 2025.6.2 (pyright version 1.1.402, commit 9496ae00) starting
+2025-07-16 00:23:45.187 [info] [Info  - 12:23:45 AM] (3649) Starting service instance "VS CODE FILES" for workspace "/home/frost/VS CODE FILES"
+2025-07-16 00:23:45.229 [info] [Info  - 12:23:45 AM] (3649) Setting environmentName for service "VS CODE FILES": "3.13.5 (.venv venv)"
+2025-07-16 00:23:45.230 [info] [Info  - 12:23:45 AM] (3649) Setting pythonPath for service "VS CODE FILES": "/home/frost/VS CODE FILES/.venv/bin/python"
+2025-07-16 00:23:45.230 [info] [Info  - 12:23:45 AM] (3649) No include entries specified; assuming /home/frost/VS CODE FILES
+2025-07-16 00:23:45.230 [info] [Info  - 12:23:45 AM] (3649) Auto-excluding **/node_modules
+2025-07-16 00:23:45.230 [info] [Info  - 12:23:45 AM] (3649) Auto-excluding **/__pycache__
+2025-07-16 00:23:45.231 [info] [Info  - 12:23:45 AM] (3649) Auto-excluding **/.*
+2025-07-16 00:23:45.251 [info] [Info  - 12:23:45 AM] (3649) Assuming Python version 3.13.5.final.0
+2025-07-16 00:23:45.373 [info] [Info  - 12:23:45 AM] (3649) Found 1 source file

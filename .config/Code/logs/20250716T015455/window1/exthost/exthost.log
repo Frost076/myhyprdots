@@ -1,0 +1,8 @@
+2025-07-16 01:54:57.003 [info] Extension host with pid 41467 started
+2025-07-16 01:54:57.003 [info] Skipping acquiring lock for /home/frost/.config/Code/User/workspaceStorage/d016b5ee66f9933f98658a5ecc8c2b77.
+2025-07-16 01:54:57.068 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-07-16 01:54:57.098 [info] ExtensionService#_doActivateExtension mechatroner.rainbow-csv, startup: false, activationEvent: 'onLanguage:plaintext'
+2025-07-16 01:54:57.102 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-07-16 01:54:57.119 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python', root cause: ms-python.black-formatter
+2025-07-16 01:54:57.403 [info] Extension host terminating: renderer closed the MessagePort
+2025-07-16 01:54:57.410 [info] Extension host with pid 41467 exiting with code 0

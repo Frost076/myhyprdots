@@ -1,0 +1,329 @@
+{
+  "schemaVersion": 2,
+  "campaigns": [
+    {
+      "version": 1,
+      "advertiserId": "846dfc87-cea8-46f2-98b1-d9e42ef147b6",
+      "campaignId": "d7bae13f-ea4f-4e78-a9b2-8b81f99d783a",
+      "startAt": "2025-07-15T04:00:00.000Z",
+      "endAt": "2025-08-16T03:59:00.000Z",
+      "dailyCap": 20,
+      "priority": 1,
+      "ptr": 1,
+      "metrics": "p3a",
+      "geoTargets": [
+        "CA",
+        "DE",
+        "FR",
+        "GB",
+        "US"
+      ],
+      "creativeSets": [
+        {
+          "creativeSetId": "8087863c-9041-4d8c-b838-fadd0d2290b7",
+          "perDay": 20,
+          "perMonth": 0,
+          "perWeek": 0,
+          "totalMax": 20,
+          "value": "0",
+          "creatives": [
+            {
+              "creativeInstanceId": "774b9047-f272-45ba-a8c5-da5c3573a590",
+              "targetUrl": "chrome://settings/search/defaultSearch",
+              "alt": "Switch to Brave Search. More Private. Better Answers. No Bias.",
+              "companyName": "Brave",
+              "wallpaper": {
+                "type": "richMedia",
+                "relativeUrl": "0732516e-fe33-4cb8-9b0e-6ebc140cec82/index.html"
+              },
+              "conditionMatchers": [
+                {
+                  "prefPath": "p3a.logs_constellation_prep|Brave.Search.SwitchEngine|value",
+                  "condition": "0"
+                },
+                {
+                  "prefPath": "p3a.logs_constellation_prep_express|Brave.Search.DefaultEngine.4|value",
+                  "condition": "[R≠]:8"
+                },
+                {
+                  "prefPath": "[virtual]:browser|version",
+                  "condition": "^\\d+\\.\\d+\\.(?:7[7-9]|[89]\\d|\\d{3,})\\.\\d+$"
+                },
+                {
+                  "prefPath": "brave.brave_ads.p3a.ntp_event_count_constellation|774b9047-f272-45ba-a8c5-da5c3573a590|views",
+                  "condition": "[R≤]:5"
+                },
+                {
+                  "prefPath": "brave.brave_ads.p3a.ntp_event_count_constellation|774b9047-f272-45ba-a8c5-da5c3573a590|clicks",
+                  "condition": "[R≤]:2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "version": 1,
+      "advertiserId": "c84bd466-0184-4d77-9c01-87e12070b029",
+      "campaignId": "f85fb958-78af-46bc-b427-7684e35fd34d",
+      "startAt": "2025-07-18T04:00:00.000Z",
+      "endAt": "2025-07-19T03:59:59.999Z",
+      "dailyCap": 20,
+      "priority": 1,
+      "ptr": 1,
+      "metrics": "p3a",
+      "geoTargets": [
+        "AD",
+        "AE",
+        "AF",
+        "AL",
+        "AM",
+        "AO",
+        "AR",
+        "AT",
+        "AU",
+        "AW",
+        "AZ",
+        "BA",
+        "BB",
+        "BD",
+        "BE",
+        "BF",
+        "BG",
+        "BH",
+        "BI",
+        "BJ",
+        "BM",
+        "BN",
+        "BO",
+        "BR",
+        "BS",
+        "BT",
+        "BW",
+        "BZ",
+        "CA",
+        "CD",
+        "CG",
+        "CH",
+        "CI",
+        "CL",
+        "CM",
+        "CN",
+        "CO",
+        "CR",
+        "CV",
+        "CW",
+        "CY",
+        "CZ",
+        "DE",
+        "DJ",
+        "DK",
+        "DM",
+        "DO",
+        "DZ",
+        "EC",
+        "EE",
+        "EG",
+        "ES",
+        "ET",
+        "FI",
+        "FJ",
+        "FO",
+        "FR",
+        "GA",
+        "GB",
+        "GD",
+        "GE",
+        "GF",
+        "GG",
+        "GH",
+        "GI",
+        "GM",
+        "GN",
+        "GP",
+        "GR",
+        "GT",
+        "GU",
+        "GY",
+        "HK",
+        "HN",
+        "HR",
+        "HT",
+        "HU",
+        "ID",
+        "IE",
+        "IL",
+        "IM",
+        "IN",
+        "IQ",
+        "IS",
+        "IT",
+        "JE",
+        "JM",
+        "JO",
+        "KE",
+        "KG",
+        "KH",
+        "KR",
+        "KW",
+        "KY",
+        "KZ",
+        "LA",
+        "LB",
+        "LC",
+        "LI",
+        "LK",
+        "LS",
+        "LT",
+        "LU",
+        "LV",
+        "LY",
+        "MA",
+        "MC",
+        "ME",
+        "MG",
+        "MK",
+        "ML",
+        "MM",
+        "MN",
+        "MO",
+        "MQ",
+        "MR",
+        "MT",
+        "MU",
+        "MV",
+        "MW",
+        "MX",
+        "MY",
+        "MZ",
+        "NA",
+        "NC",
+        "NE",
+        "NG",
+        "NI",
+        "NL",
+        "NO",
+        "NP",
+        "NZ",
+        "OM",
+        "PA",
+        "PE",
+        "PF",
+        "PG",
+        "PH",
+        "PK",
+        "PL",
+        "PR",
+        "PS",
+        "PT",
+        "PY",
+        "QA",
+        "RE",
+        "RO",
+        "RS",
+        "RW",
+        "SA",
+        "SC",
+        "SD",
+        "SE",
+        "SG",
+        "SI",
+        "SK",
+        "SL",
+        "SN",
+        "SO",
+        "SR",
+        "SV",
+        "SZ",
+        "TG",
+        "TH",
+        "TN",
+        "TO",
+        "TR",
+        "TT",
+        "TW",
+        "UG",
+        "US",
+        "UY",
+        "UZ",
+        "VC",
+        "VI",
+        "VN",
+        "YE",
+        "ZA",
+        "ZM",
+        "ZW"
+      ],
+      "creativeSets": [
+        {
+          "creativeSetId": "774e2ed1-d4f3-4491-8788-6f8f77b2a92f",
+          "perDay": 20,
+          "perMonth": 0,
+          "perWeek": 0,
+          "totalMax": 20,
+          "value": "0.01",
+          "creatives": [
+            {
+              "creativeInstanceId": "071911ce-1334-4169-9d5f-04b1f4b6e6e8",
+              "targetUrl": "https://karate.com/app",
+              "alt": "Karate Combat - Download the app to play now!",
+              "companyName": "Karate Combat",
+              "wallpaper": {
+                "type": "image",
+                "relativeUrl": "09020691-985b-4a6c-a204-f5c14fb17e6d/af7762c8-483a-49db-8ff2-4e92ddb9e17a.jpg",
+                "button": {
+                  "image": {
+                    "relativeUrl": "09020691-985b-4a6c-a204-f5c14fb17e6d/aad014b7-7c1e-4455-bd52-16f6f9978345.png"
+                  }
+                },
+                "focalPoint": {
+                  "x": 1600,
+                  "y": 720
+                }
+              }
+            },
+            {
+              "creativeInstanceId": "cd9a015d-8f6f-4a0c-8a47-7f1df138dc00",
+              "targetUrl": "https://karate.com/app",
+              "alt": "Karate Combat - Token holders run the league with the karate combat app - Watch Live",
+              "companyName": "Karate Combat",
+              "wallpaper": {
+                "type": "image",
+                "relativeUrl": "a84593b8-ffe0-42c4-a3f3-400c08731b7a/12d63e90-7936-40d7-bb8e-d4045ab81380.jpg",
+                "button": {
+                  "image": {
+                    "relativeUrl": "a84593b8-ffe0-42c4-a3f3-400c08731b7a/3716eee3-83f7-4c40-aa41-049c8148f837.png"
+                  }
+                },
+                "focalPoint": {
+                  "x": 1280,
+                  "y": 720
+                }
+              }
+            },
+            {
+              "creativeInstanceId": "32168e1c-4508-4439-a95d-0f56c5d4700c",
+              "targetUrl": "https://karate.com/app",
+              "alt": "Karate Combat - Download the app to play now!",
+              "companyName": "Karate Combat",
+              "wallpaper": {
+                "type": "image",
+                "relativeUrl": "d72c6818-cfa9-4ea5-a4c4-da3214853d50/ec212e13-78d0-41ce-b3f7-2edd0b7316e8.jpg",
+                "button": {
+                  "image": {
+                    "relativeUrl": "d72c6818-cfa9-4ea5-a4c4-da3214853d50/c5af8b71-386f-4411-bd8b-8c252fb5c652.png"
+                  }
+                },
+                "focalPoint": {
+                  "x": 1280,
+                  "y": 720
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

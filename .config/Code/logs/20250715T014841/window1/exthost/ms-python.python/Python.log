@@ -1,0 +1,3 @@
+2025-07-15 01:48:42.684 [info] Telemetry level is off
+2025-07-15 01:48:42.684 [info] Experiments are disabled, only manually opted experiments are active.
+2025-07-15 01:48:42.684 [warning] Dir "/home/frost/VS CODE FILES/.pixi/envs" is not watchable (directory does not exist)

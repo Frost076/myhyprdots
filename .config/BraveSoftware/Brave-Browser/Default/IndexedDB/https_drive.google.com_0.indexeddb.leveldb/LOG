@@ -1,0 +1,6 @@
+2025/07/11-22:53:14.427 a06d Reusing MANIFEST /home/frost/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/07/11-22:53:14.427 a06d Recovering log #3
+2025/07/11-22:53:14.434 a06d Reusing old log /home/frost/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/000003.log 
+2025/07/11-22:53:19.700 a06e Level-0 table #5: started
+2025/07/11-22:53:19.712 a06e Level-0 table #5: 4049839 bytes OK
+2025/07/11-22:53:19.721 a06e Delete type=0 #3

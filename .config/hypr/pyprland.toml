@@ -1,0 +1,41 @@
+[pyprland]
+plugins = [
+  "scratchpads",
+  "expose",
+]
+
+[expose]
+include_special = false
+
+[scratchpads.term2]
+animation = "fromTop"
+command = "kitty --class kitty-dropterm2"
+class = "kitty-dropterm2"
+size = "50% 50%"
+
+[scratchpads.term]
+animation = "fromTop"
+command = "kitty --class kitty-dropterm"
+class = "kitty-dropterm"
+size = "50% 50%"
+
+[scratchpads.volume]
+animation = "fromTop"
+command = "kitty --class kitty  -e rmpc"
+class = "kitty"
+lazy = "true"
+size = "50% 50%"
+unfocus = "hide"
+
+[scratchpads.file]
+animation = "fromTop"
+command = "kitty --class ranger -e ranger ~"
+class = "ranger"
+size = "50% 50%"
+
+[scratchpads.waypaper]
+animation = "fromBottom"
+command = "waypaper"
+class = "waypaper"
+size = "50% 50%"
+

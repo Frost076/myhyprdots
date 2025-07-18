@@ -1,0 +1,310 @@
+{
+  "schemaVersion": 2,
+  "campaigns": [
+    {
+      "version": 1,
+      "advertiserId": "846dfc87-cea8-46f2-98b1-d9e42ef147b6",
+      "campaignId": "d7bae13f-ea4f-4e78-a9b2-8b81f99d783a",
+      "startAt": "2025-07-15T04:00:00.000Z",
+      "endAt": "2025-08-16T03:59:00.000Z",
+      "dailyCap": 20,
+      "priority": 1,
+      "ptr": 1,
+      "metrics": "p3a",
+      "geoTargets": [
+        "CA",
+        "DE",
+        "FR",
+        "GB",
+        "US"
+      ],
+      "creativeSets": [
+        {
+          "creativeSetId": "8087863c-9041-4d8c-b838-fadd0d2290b7",
+          "perDay": 20,
+          "perMonth": 0,
+          "perWeek": 0,
+          "totalMax": 20,
+          "value": "0",
+          "creatives": [
+            {
+              "creativeInstanceId": "774b9047-f272-45ba-a8c5-da5c3573a590",
+              "targetUrl": "chrome://settings/search/defaultSearch",
+              "alt": "Switch to Brave Search. More Private. Better Answers. No Bias.",
+              "companyName": "Brave",
+              "wallpaper": {
+                "type": "richMedia",
+                "relativeUrl": "0732516e-fe33-4cb8-9b0e-6ebc140cec82/index.html"
+              },
+              "conditionMatchers": [
+                {
+                  "prefPath": "p3a.logs_constellation_prep|Brave.Search.SwitchEngine|value",
+                  "condition": "0"
+                },
+                {
+                  "prefPath": "p3a.logs_constellation_prep_express|Brave.Search.DefaultEngine.4|value",
+                  "condition": "[R≠]:8"
+                },
+                {
+                  "prefPath": "[virtual]:browser|version",
+                  "condition": "^\\d+\\.\\d+\\.(?:7[7-9]|[89]\\d|\\d{3,})\\.\\d+$"
+                },
+                {
+                  "prefPath": "brave.brave_ads.p3a.ntp_event_count_constellation|774b9047-f272-45ba-a8c5-da5c3573a590|views",
+                  "condition": "[R≤]:5"
+                },
+                {
+                  "prefPath": "brave.brave_ads.p3a.ntp_event_count_constellation|774b9047-f272-45ba-a8c5-da5c3573a590|clicks",
+                  "condition": "[R≤]:2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "version": 1,
+      "advertiserId": "c46b4aba-1178-49ef-b2c8-b60a14d0871f",
+      "campaignId": "ce10dca5-bdad-48bb-9f2b-5bc11bcb0fe6",
+      "startAt": "2025-07-17T04:00:00.000Z",
+      "endAt": "2025-07-18T03:59:59.999Z",
+      "dailyCap": 20,
+      "priority": 1,
+      "ptr": 1,
+      "metrics": "p3a",
+      "geoTargets": [
+        "AD",
+        "AE",
+        "AF",
+        "AL",
+        "AM",
+        "AO",
+        "AR",
+        "AT",
+        "AU",
+        "AW",
+        "AZ",
+        "BA",
+        "BB",
+        "BD",
+        "BE",
+        "BF",
+        "BG",
+        "BH",
+        "BI",
+        "BJ",
+        "BM",
+        "BN",
+        "BO",
+        "BR",
+        "BS",
+        "BT",
+        "BW",
+        "BZ",
+        "CA",
+        "CD",
+        "CG",
+        "CH",
+        "CI",
+        "CL",
+        "CM",
+        "CN",
+        "CO",
+        "CR",
+        "CV",
+        "CW",
+        "CY",
+        "CZ",
+        "DE",
+        "DJ",
+        "DK",
+        "DM",
+        "DO",
+        "DZ",
+        "EC",
+        "EE",
+        "EG",
+        "ES",
+        "ET",
+        "FI",
+        "FJ",
+        "FO",
+        "FR",
+        "GA",
+        "GB",
+        "GD",
+        "GE",
+        "GF",
+        "GG",
+        "GH",
+        "GI",
+        "GM",
+        "GN",
+        "GP",
+        "GR",
+        "GT",
+        "GU",
+        "GY",
+        "HK",
+        "HN",
+        "HR",
+        "HT",
+        "HU",
+        "ID",
+        "IE",
+        "IL",
+        "IM",
+        "IN",
+        "IQ",
+        "IS",
+        "IT",
+        "JE",
+        "JM",
+        "JO",
+        "KE",
+        "KG",
+        "KH",
+        "KR",
+        "KW",
+        "KY",
+        "KZ",
+        "LA",
+        "LB",
+        "LC",
+        "LI",
+        "LK",
+        "LS",
+        "LT",
+        "LU",
+        "LV",
+        "LY",
+        "MA",
+        "MC",
+        "ME",
+        "MG",
+        "MK",
+        "ML",
+        "MM",
+        "MN",
+        "MO",
+        "MQ",
+        "MR",
+        "MT",
+        "MU",
+        "MV",
+        "MW",
+        "MX",
+        "MY",
+        "MZ",
+        "NA",
+        "NC",
+        "NE",
+        "NG",
+        "NI",
+        "NL",
+        "NO",
+        "NP",
+        "NZ",
+        "OM",
+        "PA",
+        "PE",
+        "PF",
+        "PG",
+        "PH",
+        "PK",
+        "PL",
+        "PR",
+        "PS",
+        "PT",
+        "PY",
+        "QA",
+        "RE",
+        "RO",
+        "RS",
+        "RW",
+        "SA",
+        "SC",
+        "SD",
+        "SE",
+        "SG",
+        "SI",
+        "SK",
+        "SL",
+        "SN",
+        "SO",
+        "SR",
+        "SV",
+        "SZ",
+        "TG",
+        "TH",
+        "TN",
+        "TO",
+        "TR",
+        "TT",
+        "TW",
+        "UG",
+        "US",
+        "UY",
+        "UZ",
+        "VC",
+        "VI",
+        "VN",
+        "YE",
+        "ZA",
+        "ZM",
+        "ZW"
+      ],
+      "creativeSets": [
+        {
+          "creativeSetId": "c36fbd9e-3d85-4dc8-9590-134302f9d9d5",
+          "perDay": 20,
+          "perMonth": 0,
+          "perWeek": 0,
+          "totalMax": 20,
+          "value": "0",
+          "creatives": [
+            {
+              "creativeInstanceId": "31f03258-7b0a-4feb-9866-ad2e3936fc9c",
+              "targetUrl": "https://brave.com/podcast/e79/?mtm_source=brave-browser&mtm_medium=brave-ntp&mtm_campaign=brave-technologist&mtm_content=podcast",
+              "alt": "Brave Technologist Podcast - Listen Now",
+              "companyName": "Brave",
+              "wallpaper": {
+                "type": "image",
+                "relativeUrl": "484403a9-ef54-49da-ac99-2104acc382f2/0df14e60-4239-4b33-88e9-1b511c124811.jpg",
+                "button": {
+                  "image": {
+                    "relativeUrl": "484403a9-ef54-49da-ac99-2104acc382f2/643eca52-3905-4861-8bd3-27517a78b96b.png"
+                  }
+                },
+                "focalPoint": {
+                  "x": 1280,
+                  "y": 720
+                }
+              }
+            },
+            {
+              "creativeInstanceId": "6cabcf7a-e750-47f1-8994-02264dc1ef30",
+              "targetUrl": "https://brave.com/podcast/e79/?mtm_source=brave-browser&mtm_medium=brave-ntp&mtm_campaign=brave-technologist&mtm_content=podcast",
+              "alt": "Brave Technologist Podcast - Listen Now",
+              "companyName": "Brave",
+              "wallpaper": {
+                "type": "image",
+                "relativeUrl": "a78ca527-8076-4d05-8799-af9d9e007e94/6e255035-b2b3-4fc1-a126-06e9ba042ea4.jpg",
+                "button": {
+                  "image": {
+                    "relativeUrl": "a78ca527-8076-4d05-8799-af9d9e007e94/643eca52-3905-4861-8bd3-27517a78b96b.png"
+                  }
+                },
+                "focalPoint": {
+                  "x": 1280,
+                  "y": 720
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

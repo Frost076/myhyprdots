@@ -1,0 +1,8 @@
+2025-07-18 01:48:06.909 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vsliveshare.vsliveshare' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-18 01:48:06.919 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.gather' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-18 01:48:06.920 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.vscode-pylance' wants API proposal 'mcpConfigurationProvider' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-18 01:48:07.190 [info] Started local extension host with pid 10240.
+2025-07-18 01:48:07.209 [error] Extension 'ms-python.vscode-pylance' wants API proposal 'mcpConfigurationProvider' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-07-18 01:48:07.840 [info] Settings Sync: Account status changed from uninitialized to available
+2025-07-18 01:48:09.889 [info] [perf] Render performance baseline is 17ms
+2025-07-18 01:48:10.480 [info] Auto updating outdated extensions. robbowen.synthwave-vscode
