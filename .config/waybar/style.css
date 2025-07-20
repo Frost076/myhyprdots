@@ -1,4 +1,4 @@
-@import url("colors.css");
+@import url("/home/frost/.cache/wal/colors-waybar.css");
 
 * {  
   font-family:
@@ -12,21 +12,20 @@
   }
 
 #waybar {
-/*#background-color: #11151a;*/
 background: transparent;
-color: @fg;
+color: @foreground;
 border-radius: 10px 10px 10px 10px;
-background-color: rgba(0, 0, 0, 0.3);
+background-color: alpha(@background, 0.3);
 }
 
 tooltip {
-    background-color: @bg-dark;
-    border: 1px solid @accent-blue;
+    background-color: @background;
+    border: 1px solid @color14;
     border-radius: 10px;
 }
 
 tooltip label {
-    color: @fg;
+    color: @foreground;
 }
 
 button {
@@ -37,7 +36,7 @@ transition: all 0.2s ease;
 }
 
 #workspaces {
-background-color: @bg-dark;
+background-color: @background;
 border-radius: 5px;
 margin: 5px;
 padding: 2px;
@@ -46,7 +45,7 @@ padding: 2px;
 
 #workspaces button {
 background-color: transparent;
-color: @fg-alt;
+color: @color8;
 border-radius: 6px;
 margin: 0 2px;
 padding: 0 8px;
@@ -54,19 +53,19 @@ transition: all 0.2s ease;
 }
 
 #workspaces button:hover {
-color: @accent-purple;
-background-color: rgba(187, 154, 247, 0.1);
+color: @color6;
+background-color: @background;
 }
 
 #workspaces button.active {
-color: @accent-blue;
-background-color: rgba(122, 162, 247, 0.1);
+color: @color14;
+background-color: @background;
 font-weight: bold;
 }
 
 #workspaces button.urgent {
-background-color: @red;
-color: @bg-black;
+background-color: @color6;
+color: @color1;
 }
 
 /*#custom-separator {
@@ -76,7 +75,7 @@ margin-left: 10px;
 
 #custom-opensuse {
     background-image: url("file:///home/frost/logos/button-monochrome.svg");
-    background-color: @accent-green;
+    background-color: @color14;
     background-repeat: no-repeat;
     background-position: center;
     background-size: 29px;
@@ -87,56 +86,17 @@ margin-left: 10px;
     min-height: 24px;
 }
 
-#custom-notification {
-background-color: @bg-dark;
-color: @accent-yellow;
-padding: 0 12px;
-border-radius: 5px;
-margin: 5px;
-font-size: 20px;
-}
-
 #window {
-background-color: @bg-dark;
-color: @accent-green;
+background-color: @background;
+color: @color14;
 padding: 0px 12px;
-border-radius: 12px;
-margin: 5px;
-}
-
-#custom-updates.icon {
-background-color: @accent-yellow;
-color: @bg-black;
-padding: 0px 7px 0px 7px;
-border-radius: 10px 0 0 10px;
-margin: 5px 0 5px 5px;
-font-size: 20px;
-}
-
-#custom-updates.text {
-background-color: @bg-dark;
-color: @accent-yellow;
-padding: 0 12px;
-border-radius: 0 5px 5px 0;
-margin: 5px 5px 5px 0;
-}
-
-#idle_inhibitor {
-background-color: @bg-dark;
-color: @fg;
 border-radius: 5px;
 margin: 5px;
-padding: 0 10px;
-font-size: 20px;
-}
-
-#idle_inhibitor.activated {
-color: @accent-green;
 }
 
 #network.icon {
-background-color: @accent-purple;
-color: @bg-black;
+background-color: @color14;
+color: @background;
 padding: 0 10px;
 border-radius: 5px 0 0 5px;
 margin: 5px 0 5px 0;
@@ -144,24 +104,24 @@ font-size: 20px;
 }
 
 #network.text {
-background-color: @bg-dark;
-color: @accent-purple;
+background-color: @background;
+color: @color14;
 padding: 0 10px;
 border-radius: 0 5px 5px 0;
 margin: 5px 5px 5px 0;
 }
 
 #bluetooth.icon {
-background-color: @accent-cyan;
-color: @bg-black;
+background-color: @color14;
+color: @background;
 padding: 0 12px;
 border-radius: 5px;
 margin: 5px;
 }
 
 #cpu.icon {
-background-color: @accent-blue;
-color: @bg-black;
+background-color: @color14;
+color: @background;
 padding: 0 10px;
 border-radius: 5px 0 0 5px;
 margin: 5px;
@@ -169,16 +129,16 @@ font-size: 20px;
 }
 
 #cpu.text {
-background-color: @bg-dark;
-color: @accent-cyan;
+background-color: @background;
+color: @color14;
 padding: 0 12px;
 border-radius: 0 5px 5px 0;
 margin: 5px 5px 5px -5px;
 }
 
 #temperature.icon {
-  background-color:@accent-cyan;
-  color: @bg-black;
+  background-color:@color14;
+  color: @background;
   padding: 0 10px;
   border-radius: 5px 0 0 5px;
   margin: 5px 0 5px 0px;
@@ -186,16 +146,16 @@ margin: 5px 5px 5px -5px;
 }
 
 #temperature.text {
-  background-color:@bg-dark;
-  color: @accent-cyan;
+  background-color:@background;
+  color: @color14;
   padding: 0 12px;
   border-radius: 0 5px 5px 0;
   margin: 5px 5px 5px 0;
 }
 
 #memory.icon {
-background-color: @accent-cyan;
-color: @bg-black;
+background-color: @color14;
+color: @background;
 padding: 0 10px;
 border-radius: 5px 0 0 5px;
 margin: 5px 0 5px 0px;
@@ -203,24 +163,24 @@ font-size: 20px;
 }
 
 #memory {
-background-color: @bg-dark;
-color: @accent-cyan;
+background-color: @background;
+color: @color14;
 padding: 0 12px;
 border-radius: 0 5px 5px 0;
 margin: 5px 5px 5px 0;
 }
 
 #battery.icon {
-background-color: @accent-orange;
-color: @bg-black;
+background-color: @color14;
+color: @background;
 padding: 0 10px;
 border-radius: 5px 0 0 5px;
 margin: 5px 0 5px 5px;
 }
 
 #battery.text {
-background-color: @bg-dark;
-color: @accent-orange;
+background-color: @background;
+color: @color14;
 padding: 0 12px;
 border-radius: 0 5px 5px 0;
 margin: 5px 5px 5px 0;
@@ -231,8 +191,8 @@ animation: blink 0.7s cubic-bezier(0.68, -0.55, 0.27, 1.55) infinite alternate;
 }
 
 #pulseaudio.icon {
-background-color: @accent-blue;
-color: @bg-black;
+background-color: @color14;
+color: @background;
 padding: 0px 10px;
 border-radius: 5px 0 0 5px;
 margin: 5px 0px 5px 0px;
@@ -240,16 +200,16 @@ font-size: 20px;
 }
 
 #pulseaudio.text {
-background-color: @bg-dark;
-color: @accent-blue;
+background-color: @background;
+color: @color14;
 padding: 0 12px;
 border-radius: 0 5px 5px 0;
 margin: 5px 5px 5px 0;
 }
 
 #clock.icon {
-background-color: @red;
-color: @bg-black;
+background-color: @color14;
+color: @background;
 padding: 0px 10px;
 border-radius: 5px 0 0 5px;
 margin: 5px 0px 5px 0px;
@@ -257,15 +217,15 @@ font-size: 20px;
 }
 
 #clock.text {
-background-color: @bg-dark;
-color: @red;
+background-color: @background;
+color: @color14;
 padding: 0 12px;
 border-radius: 0 5px 5px 0;
 margin: 5px 5px 5px 0;
 }
 
 #tray {
-background-color: @bg-dark;
+background-color: @background;
 padding: 0 10px;
 border-radius: 5px;
 margin: 5px;
@@ -277,13 +237,13 @@ margin: 5px;
 
 #tray > .needs-attention {
 -gtk-icon-effect: highlight;
-background-color: @red;
+background-color: @color1;
 }
 
 @keyframes blink {
     to {
-        background-color: @red;
-        color: @bg-black;
+        background-color: @color1;
+        color: @background;
     }
 }
 

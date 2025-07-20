@@ -24,7 +24,7 @@
     # Offset from the origin
     # if status bar on top
     # offset = 10x35
-    offset = 15x15
+    offset = (15, 15)
 
     # Scale factor. It is auto-detected if value is 0.
     scale = 0
@@ -80,7 +80,7 @@
     frame_width = 3
 
     # Defines color of the frame around the notification window.
-    frame_color = "#B6B1A9"
+    frame_color = "#9DB9C6"
 
     # Define a color for the separator.
     # possible values are:
@@ -176,24 +176,11 @@
     # user defined timeout.
     ignore_dbusclose = false
 
-    # your notifs stuff
-    [urgency_low]
-       background = "#010101"    
-       foreground = "#B6B1A9"
-       highlight = "#B6B1A9"
-       timeout = 4
-
-    [urgency_normal]
-       background = "#010101"    
-       foreground = "#B6B1A9"
-       highlight = "#B6B1A9"
-       timeout = 6
-
-    [urgency_critical]
-        background = "#FF0000"
-        foreground = "#1a1b26"
-        frame_color = "#FF0000"
-        timeout = 0
+[global]
+    frame_color = "#9DB9C6"
+    background = "#181c1c"
+    foreground = "#9DB9C6"
+    highlight = "#9DB9C6"
 
 # ========================================================================
 # ========================================================================

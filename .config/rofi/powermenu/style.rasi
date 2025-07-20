@@ -5,84 +5,30 @@ configuration {
 
 /*****----- Global Properties -----*****/
 * {
-    font: "JetBrainsMono Nerd Font Mono 12";
-    
-    // Color definitions from first theme
-    selected-normal-foreground:  rgba ( 255, 255, 255, 100 % );
-    foreground:                  rgba ( 240, 240, 240, 100 % );
-    normal-foreground:           @foreground;
-    alternate-normal-background: rgba ( 45, 48, 59, 1 % );
-    red:                         rgba ( 220, 50, 47, 100 % );
-    selected-urgent-foreground:  rgba ( 249, 249, 249, 100 % );
-    blue:                        rgba ( 38, 139, 210, 100 % );
-    urgent-foreground:           rgba ( 204, 102, 102, 100 % );
-    alternate-urgent-background: rgba ( 75, 81, 96, 90 % );
-    active-foreground:           rgba ( 101, 172, 255, 100 % );
-    lightbg:                     rgba ( 238, 232, 213, 100 % );
-    selected-active-foreground:  rgba ( 249, 249, 249, 100 % );
-    alternate-active-background: rgba ( 45, 48, 59, 88 % );
-    background-color:            rgba ( 0, 0, 0, 80 % );
-    alternate-normal-foreground: @foreground;
-    normal-background:           rgba ( 45, 48, 59, 1 % );
-    lightfg:                     rgba ( 210, 210, 210, 100 % );
-    selected-normal-background:  rgba ( 48, 52, 60, 95 % );
-    border-color:                @lightfg; // Changed to match text color
-    spacing:                     2;
-    separatorcolor:              rgba ( 45, 48, 59, 1 % );
-    urgent-background:           rgba ( 45, 48, 59, 15 % );
-    selected-urgent-background:  rgba ( 165, 66, 66, 100 % );
-    alternate-urgent-foreground: @urgent-foreground;
-    alternate-active-foreground: @active-foreground;
-    active-background:           rgba ( 29, 31, 33, 17 % );
-    selected-active-background:  rgba ( 26, 28, 35, 100 % );
-    
-    // Aliases to match your element names
-    selected: @selected-normal-background;
-    active: @active-foreground;
-    urgent: @urgent-foreground;
+    font: "JetBrainsMono Nerd Font Mono 11";
 }
+
+@import "~/.cache/wal/colors-rofi-dark.rasi"
 
 /*****----- Main Window -----*****/
 window {
-    transparency: "real";
     location: center;
     anchor: center;
     fullscreen: false;
     width: 300px;
-    x-offset: 0px;
-    y-offset: 0px;
-
-    padding: 5px;
+    padding: 0px;
+    margin: 0px;
     border-radius: 2px;
-    border: 3px;
-    border-color: @border-color; // Added border with text color
-    background-color: @background-color;
+    border: 2px;
 }
 
 /*****----- Main Box -----*****/
 mainbox {
     enabled: true;
-    spacing: 2px;
-    margin: 4px;
-    padding: 2px;
-    background-color: transparent;
+    spacing: 0px;
+    margin: 0px;
+    padding: 0px;
     children: [ "listview" ];
-}
-
-/*****----- Inputbar -----*****/
-inputbar {
-    enabled: true;
-    background-color: transparent;
-    text-color: @foreground;
-    children: ["dummy", "prompt"];
-}
-
-prompt {
-    enabled: true;
-    padding: 4px;
-    border-radius: 4px;
-    background-color: @alternate-normal-background;
-    text-color: @foreground;
 }
 
 /*****----- Listview -----*****/
@@ -97,10 +43,8 @@ listview {
     reverse: false;
     fixed-height: true;
     fixed-columns: true;
-
     spacing: 4px;
     padding: 4px;
-    background-color: transparent;
 }
 
 /*****----- Elements -----*****/
@@ -108,34 +52,23 @@ element {
     enabled: true;
     padding: 10px;
     border-radius: 10px;
-    background-color: @normal-background;
-    text-color: @normal-foreground;
     cursor: pointer;
-}
-
-element selected.normal {
-    background-color: @selected-normal-background;
-    text-color: @selected-normal-foreground;
-}
-
-element-text {
-    font: "JetBrainsMono Nerd Font Mono 11";
-    background-color: transparent;
-    text-color: inherit;
-    cursor: inherit;
 }
 
 /*****----- Message Box -----*****/
 message {
     enabled: true;
-    margin: 2px;
-    padding: 4px;
+    margin: 0px;
+    padding: 0px;
     border-radius: 2px;
-    background-color: @alternate-normal-background;
-    text-color: @foreground;
 }
 
-textbox {
-    background-color: transparent;
-    text-color: @foreground;
+/* Explicitly hide inputbar */
+inputbar {
+    enabled: false;
+    height: 0px;
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+    children: [];
 }

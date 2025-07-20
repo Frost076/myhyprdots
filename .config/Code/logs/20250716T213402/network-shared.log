@@ -1,2 +1,0 @@
-2025-07-16 21:34:04.058 [error] #1: https://main.vscode-cdn.net/extensions/marketplace.json - error GET net::ERR_INTERNET_DISCONNECTED
-2025-07-16 21:34:04.455 [error] #2: https://vscode-sync.trafficmanager.net/v1/manifest - error GET net::ERR_INTERNET_DISCONNECTED

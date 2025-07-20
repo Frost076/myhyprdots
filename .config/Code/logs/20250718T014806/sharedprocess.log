@@ -1,7 +1,0 @@
-2025-07-18 01:48:11.493 [info] Getting Manifest... robbowen.synthwave-vscode
-2025-07-18 01:48:12.037 [info] Installing extension: robbowen.synthwave-vscode {"productVersion":{"version":"1.102.1","date":"2025-07-15T16:41:17.147Z"},"pinned":false,"operation":3,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/frost/.vscode/extensions/extensions.json","path":"/home/frost/.vscode/extensions/extensions.json","scheme":"vscode-userdata"}}
-2025-07-18 01:48:14.293 [info] Extension signature verification result for robbowen.synthwave-vscode: Success. Internal Code: 0. Executed: true. Duration: 1293ms.
-2025-07-18 01:48:14.338 [info] Extracted extension to file:///home/frost/.vscode/extensions/robbowen.synthwave-vscode-0.1.20: robbowen.synthwave-vscode
-2025-07-18 01:48:14.343 [info] Renamed to /home/frost/.vscode/extensions/robbowen.synthwave-vscode-0.1.20
-2025-07-18 01:48:14.353 [info] Marked extension as removed robbowen.synthwave-vscode-0.1.19
-2025-07-18 01:48:14.360 [info] Extension installed successfully: robbowen.synthwave-vscode vscode-userdata:/home/frost/.vscode/extensions/extensions.json
